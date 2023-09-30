@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "next/core-web-vitals",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/require-default-props": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/no-extraneous-dependencies": "off",
+    "id-match": [
+      "error",
+      "^[a-zA-Z0-9_$]*$",
+      {
+        "properties": true,
+        "onlyDeclarations": false
+      }
+    ]
+  }
+}
