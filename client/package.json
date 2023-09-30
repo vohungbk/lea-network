@@ -12,8 +12,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,ts,tsx,json,mdx,md,css,scss}\"",
-    "prepare": "husky install"
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,ts,tsx,json,mdx,md,css,scss}\""
   },
   "dependencies": {
     "@emotion/cache": "11.11.0",
